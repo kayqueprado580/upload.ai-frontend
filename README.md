@@ -31,12 +31,9 @@ $ npm install
 
 ```bash
 # development
-$ npm run start
-
-# watch mode
 $ npm run dev
 
 # production mode
 $ npm run build
-$ npm run prod
+$ npm run start
 ```
