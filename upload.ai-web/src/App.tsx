@@ -126,6 +126,11 @@ export function App() {
             <Separator />
 
             <div className="space-y-4">
+            <Label
+                htmlFor="prompt"
+              >
+                Temperatura
+              </Label>
               <Slider
                 min={0}
                 max={1}
