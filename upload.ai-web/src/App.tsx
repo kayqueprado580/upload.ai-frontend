@@ -40,12 +40,13 @@ export function App() {
         <div className="flex items-center gap-3">
           <span className="text-sm text-muted-foreground">Desenvolvido na NLW IA por Kayque Prado</span>
           <Separator orientation="vertical" className="h-6" />
-
-          <Button variant="outline">
-            <Github className="w-4 h-4 mr-2">
-            </Github>
-            Github
-          </Button>
+          <a href="https://github.com/kayqueprado580/upload.ai-frontend" target="blank">
+            <Button variant="outline">
+              <Github className="w-4 h-4 mr-2">
+              </Github>
+              Github
+            </Button>
+          </a>
         </div>
       </div>
       <main className="flex-1 p-6 flex gap-6">
